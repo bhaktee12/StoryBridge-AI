@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - Book & Movie Recommendations</title>
+  
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1697791173189-d56b15df4f33?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMHdvb2QlMjBib29rY2FzZXxlbnwwfHwwfHx8MA%3D%3D'); /* Background image from Unsplash */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    /* Signup Container */
+    .signup-container {
+      background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .signup-container h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .signup-container p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Form Styles */
+    .signup-form input {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      background: rgba(255, 255, 255, 0.9);
+      color: #333;
+    }
+
+    .signup-form button {
+      width: 100%;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      background: #e50914; /* Netflix-style red */
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      
+    }
+
+    .signup-form button:hover {
+      background: #b20710; /* Darker red on hover */
+    }
+
+    /* Login Link */
+    .login-link {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .login-link a {
+      color: #e50914; /* Netflix-style red */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .login-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="signup-container">
+    <h1>Ink & Frame</h1>
+    <p>Where every story is a brushstroke in motion.
+    </p>
+    <form class="signup-form">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <a href="index.html">
+        <button type="submit">Sign up
+       </button></a>
+    </form>
+    <p class="login-link">Already have an account? <a>Log in</a></p>
+  </div>
+  <script>
+    document.getElementById('signupForm').addEventListener('submit', function(e) {
+      e.preventDefault(); // Prevent default form submission
+      
+      // Here you would typically:
+      // 1. Validate the form
+      // 2. Send data to your server
+      // 3. Handle the response
+      
+      // For this example, we'll just redirect after a short delay
+      setTimeout(function() {
+        window.location.href = "index.html"; // Redirect to original page
+      }, 500);
+    });
+  </script>
+</body>
+</html>
