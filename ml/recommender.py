@@ -130,3 +130,4 @@ if __name__ == "__main__":
     cross = recommender.get_cross_media_recommendation(item_id=1, top_k=3)
     for c in cross:
         print(f"[{c['type'].upper()}] {c['title']} - {c['match_score']}% Match")
+

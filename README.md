@@ -79,8 +79,8 @@ Traditional recommendation engines operate in content silos: books recommend boo
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/bhaktee12/124B1F122.git
-cd 124B1F122
+git clone https://github.com/bhaktee12/StoryBridge-AI.git
+cd StoryBridge-AI
 ```
 
 ### 2. Backend & ML Setup (Python)
@@ -125,4 +125,5 @@ Open **http://localhost:3000** in your browser.
 ## 👤 Author
 
 * **Bhakti** ([@bhaktee12](https://github.com/bhaktee12))
-* Repository: [124B1F122](https://github.com/bhaktee12/124B1F122)
+* Repository: [StoryBridge-AI](https://github.com/bhaktee12/StoryBridge-AI)
+
