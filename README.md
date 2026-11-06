@@ -120,10 +120,4 @@ Open **http://localhost:3000** in your browser.
 | `/api/recommend` | `POST` | Semantic vector search across descriptions using natural-language prompt |
 | `/api/cross-media/{id}` | `GET` | Find opposing media titles with high semantic similarity |
 
----
-
-## 👤 Author
-
-* **Bhakti** ([@bhaktee12](https://github.com/bhaktee12))
-* Repository: [StoryBridge-AI](https://github.com/bhaktee12/StoryBridge-AI)
 
